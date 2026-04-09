@@ -5,10 +5,10 @@ class Lc < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/Akshdhiwar/leetcode-terminal/releases/tag/v1.0.1/lc-darwin-arm64"
-    sha256 "sha256:fdc1674423c5f438cc7acba2508982cfb52d1a62ca8bc215473efa6d07f83215"
+    sha256 "sha256:cb6e4f1c7a7e26c1047c8746dc93c02819f5a3c40f76874c677b9c37f7a3f8ee"
   else
     url "https://github.com/Akshdhiwar/leetcode-terminal/releases/tag/v1.0.1/lc-darwin-amd64"
-    sha256 "sha256:d0647503f6cf75459533b30fe819d6d29cf9f7a5df3ba1f41529afa077e2f7ad"
+    sha256 "sha256:198d7437f56b14fb8194e254faf45c5d896fa8b91d2f217b1a5932b831be8725"
   end
 
   def install
