@@ -1,7 +1,7 @@
 class Lc < Formula
   desc "Fast CLI to browse and solve LeetCode problems from terminal"
   homepage "https://github.com/Akshdhiwar/leetcode-terminal"
-  version "1.0.1"
+  version "latest"
 
   if Hardware::CPU.arm?
     url "https://github.com/Akshdhiwar/leetcode-terminal/releases/tag/latest/lc-darwin-arm64"
